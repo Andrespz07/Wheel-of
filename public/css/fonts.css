@@ -1,0 +1,18 @@
+@font-face {
+    font-family: beyond;
+    src: url('../assets/fonts/BeyondWonderland.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: fairy;
+    src: url('../assets/fonts/FairyDustB.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: ghost;
+    src: url('../assets/fonts/Ghosttheory.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
