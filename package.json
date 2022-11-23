@@ -1,0 +1,22 @@
+{
+  "name": "wheel-of",
+  "version": "1.0.0",
+  "description": "Proyecto rueda del castigo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrespz07/Wheel-of.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrespz07/Wheel-of/issues"
+  },
+  "homepage": "https://github.com/Andrespz07/Wheel-of#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
