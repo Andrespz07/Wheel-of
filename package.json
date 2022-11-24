@@ -4,7 +4,8 @@
   "description": "Proyecto rueda del castigo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-all": "npx sass --watch src/sass/default.scss:public/css/default.css src/sass/header.scss:public/css/header.css src/sass/button-start.scss:public/css/button-start.css src/sass/wheel.scss:public/css/wheel.css src/sass/result-actions.scss:public/css/result-actions.css src/sass/instructions.scss:public/css/instructions.css"
   },
   "repository": {
     "type": "git",
