@@ -1,1 +1,7 @@
+@import "default.css";
 @import "fonts.css";
+@import "header.css";
+@import "wheel.css";
+@import "button-start.css";
+@import "result-actions.css";
+@import "instructions.css";
