@@ -10,15 +10,16 @@ export function AddPunishments(param){
         let InfoPunishments = document.getElementById ("punishment").value; 
         param.set(InfoPunishments);
         console.log(param.getPunishments);
-        RenderPunishments(InfoPunishments);
+        let lengthArray = param.optainLength();
+        RenderPunishments(InfoPunishments, lengthArray);
         
     })
 }
 
-export function RenderPunishments(param){
+export function RenderPunishments(paramInfo, number){
     let Render = document.getElementById
     ("punishment-list");
     Render.innerHTML  += `
-        <li>${param}</li>
+        <li id="punish-${number}" class="punish">${paramInfo}</li>
     `
 }
