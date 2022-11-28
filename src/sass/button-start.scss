@@ -7,6 +7,7 @@
         font-size: 4.5vw;
         text-align: center;
         margin-bottom: 2%;
+        font-family: dream;
     }
 
     #button-input {
@@ -16,20 +17,27 @@
        // background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepng.es%2Fpng-zubr6s%2F&psig=AOvVaw0iLx_mLycsVlqJTdwfwnE8&ust=1669462218677000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJDv4sadyfsCFQAAAAAdAAAAABAs");
         
         #input-name {
-            height: 5vw;
+            height: fit-content;
             border-top-left-radius: 5vw;
             border-bottom-left-radius: 5vw;
-            border: 2px;
             background-color: rgb(197, 197, 197);
             width: 30%;
+            padding-left: 2%;
+            font-size: 2vw;
+            font-family: ghost;
         }
         #button-sufre {
             width: 10%;
-            height: 5vw;
+            height: 2.3vw;
             border-top-right-radius: 5vw;
             border-bottom-right-radius: 5vw;
-            background-color: green;
-        }
-
+            background-color: #4c4c4c;
+            font-size: 2vw;
+            font-family: ghost;
     }
+        #button-sufre:hover{
+            background-color: #50b748;
+            cursor: pointer;
+        }
+}
 }

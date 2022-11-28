@@ -16,3 +16,15 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: vampire;
+    src: url('../assets/fonts/Scary_Vampire.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: dream;
+    src: url('../assets/fonts/DreamOrphans.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
