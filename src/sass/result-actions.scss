@@ -20,6 +20,10 @@
                 margin: 0.5% 0 0.5% 0;
             }
         }
+        .wrapper:hover {
+            cursor: pointer;
+            transform: scale(1.01);
+        }
         #list-title {
             background-color: #50B748;
             

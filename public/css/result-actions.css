@@ -21,6 +21,10 @@
 #section-result-actions #actions-sec .wrapper .title-action-sec {
   margin: 0.5% 0 0.5% 0;
 }
+#section-result-actions #actions-sec .wrapper:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
 #section-result-actions #actions-sec #list-title {
   background-color: #50B748;
 }
