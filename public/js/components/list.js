@@ -12,4 +12,9 @@ export default class List{
     optainLength(){
         return this.#Punishments.length;
     }
+    editList(param, index){
+        console.log(param);
+        console.log(index);
+        this.#Punishments.splice(index,1,param);
+    }
 }
