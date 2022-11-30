@@ -15,6 +15,9 @@ export default class List{
     editList(param, index){
         console.log(param);
         console.log(index);
-        this.#Punishments.splice(index,1,param);
+        this.#Punishments[index]=param;
+    }
+    deleteList(param){
+        this.#Punishments.splice(param, 1);
     }
 }

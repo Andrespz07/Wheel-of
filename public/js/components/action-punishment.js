@@ -1,4 +1,5 @@
 import { extractPositionTask } from "./AuxiliarFunctions.js";
+import { DeletePunishment } from "./delete-punishment.js";
 import List from "./list.js";
 
 export function ActionPunishments(paramInfo){
@@ -16,6 +17,12 @@ export function ActionPunishments(paramInfo){
             <button id="edit-btn-${number}" class="edit-btn">edit</button>
             <button id="delete-btn-${number}" class="delete-btn">delete</button>
         </li>`
+        }
+        if(e.target.classList=="delete-btn"){
+            let number = extractPositionTask(e.target.id);
+            let number2 = paramInfo.getPunishments.indexOf("rojo");
+            console.log(number2);
+           DeletePunishment(paramInfo, number);
         }
     })
 }

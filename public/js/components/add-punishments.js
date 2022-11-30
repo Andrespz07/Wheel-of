@@ -22,7 +22,7 @@ export function RenderPunishments(paramInfo, number){
     let Render = document.getElementById
     ("punishment-list");
     Render.innerHTML  += /* html */ `
-        <li id="punish-${number}" class="punish">${paramInfo}
+        <li id="punish-${paramInfo.lengthArray}" class="punish">${paramInfo}
             <button id="edit-btn-${number}" class="edit-btn">edit</button>
             <button id="delete-btn-${number}" class="delete-btn">delete</button>
         </li>
