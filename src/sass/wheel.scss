@@ -1,0 +1,15 @@
+#section-wheel{
+    display: flex;
+    justify-content:center;
+    background-color: aqua;
+}
+
+.wheel {
+    width: 40vw;
+    height: 40vw;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    display: flex;
+}
