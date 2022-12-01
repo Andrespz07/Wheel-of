@@ -1,6 +1,11 @@
-export function extractPositionTask(param){
-    param = param.split("-");
-    param = param[2];
-    return parseInt(param);
+export function isEmpty(info){
+   if(info==''){
+    return true;
+   } else {
+    return false;
+   }
+}
 
+export function isRepeat(array, repeat){
+    return array.indexOf(repeat)
 }

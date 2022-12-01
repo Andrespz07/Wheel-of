@@ -3,21 +3,16 @@ export default class List{
     constructor(){
         this.#Punishments = new Array();
     }
-    set(param){
-        this.#Punishments.push(param);
+    set(paramInfo){
+        this.#Punishments.push(paramInfo);
     }
     get getPunishments(){
         return this.#Punishments;
     }
-    optainLength(){
-        return this.#Punishments.length;
+    editList(paramInfo, index){
+        this.#Punishments[index]=paramInfo;
     }
-    editList(param, index){
-        console.log(param);
-        console.log(index);
-        this.#Punishments[index]=param;
-    }
-    deleteList(param){
-        this.#Punishments.splice(param, 1);
+    deleteList(index){
+        this.#Punishments.splice(index, 1);
     }
 }

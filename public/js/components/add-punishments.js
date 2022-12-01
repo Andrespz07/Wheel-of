@@ -1,4 +1,5 @@
 import { ActionPunishments } from "./action-punishment.js";
+import { isEmpty, isRepeat } from "./AuxiliarFunctions.js";
 import List from "./list.js";
 
 export function CreateList(){
@@ -6,34 +7,35 @@ export function CreateList(){
     AddPunishments(PunishmentList);
     ActionPunishments(PunishmentList);
 }
-export function AddPunishments(param){
+export function AddPunishments(paramInfo){
     let ButtonAdd = document.getElementById("btn-add");
     ButtonAdd.addEventListener("click", ()=>{
-        let InfoPunishments = document.getElementById ("punishment").value; 
-        param.set(InfoPunishments);
-        console.log(param.getPunishments);
-        let lengthArray = param.optainLength();
-        RenderPunishments(InfoPunishments, lengthArray);
-        renderDib(InfoPunishments, lengthArray);
-        
+        let InfoPunishments = document.getElementById ("punishment").value;
+        if(!isEmpty(InfoPunishments) && isRepeat(paramInfo.getPunishments, InfoPunishments)==-1){
+        paramInfo.set(InfoPunishments);
+        RenderPunishments(InfoPunishments);
+        renderDib(InfoPunishments);
+        } else{
+            alert("Is duplicate or is empty")
+        }
     })
 }
-export function RenderPunishments(paramInfo, number){
+export function RenderPunishments(paramInfo){
     let Render = document.getElementById
     ("punishment-list");
     Render.innerHTML  += /* html */ `
-        <li id="punish-${paramInfo.lengthArray}" class="punish">${paramInfo}
-            <button id="edit-btn-${number}" class="edit-btn">edit</button>
-            <button id="delete-btn-${number}" class="delete-btn">delete</button>
+        <li id="${paramInfo}"class="punish">${paramInfo}
+            <button id="edit-btn-${paramInfo}" class="edit-btn">edit</button>
+            <button id="delete-btn-${paramInfo}" class="delete-btn">delete</button>
         </li>
     `
 }
 
-export function renderDib(paramInfo, number){
+export function renderDib(paramInfo){
     let Render = document.getElementById
     ("test");
     Render.innerHTML  += /* html */ `
-    <div id="div-${number}" class="div">${paramInfo}
+    <div id="div-${paramInfo}" class="target">${paramInfo}
     
     </div>
     `

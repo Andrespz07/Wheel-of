@@ -1,7 +1,6 @@
-export function DeletePunishment(paramInfo, number){
+export function DeletePunishment(paramInfo, number, id){
+    let elementDelete = document.getElementById(`${id}`);
     let list = document.getElementById("punishment-list");
-    let elementList = document.getElementById(`punish-${number}`);
-    list.removeChild(elementList)
-    paramInfo.deleteList(number-1);
-    console.log(paramInfo.getPunishments);
+    paramInfo.deleteList(number);
+    list.removeChild(elementDelete);
 }
