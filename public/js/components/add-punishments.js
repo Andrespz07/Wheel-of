@@ -1,5 +1,6 @@
 import { ActionPunishments } from "./action-punishment.js";
 import { isEmpty, isRepeat } from "./AuxiliarFunctions.js";
+import { DeletePunishment } from "./delete-punishment.js";
 import List from "./list.js";
 
 export function CreateList(){
@@ -53,8 +54,9 @@ export function RandomFunction(paramInfo){
         const randomNum=Math.floor(Math.random() * paramInfo.getPunishments.length);
         let activate = document.getElementById(`div-${paramInfo.getPunishments[randomNum]}`);
         activate.classList.add("card-actived");
-        console.log(activate);
-        console.log(randomNum);
+        if(activate.classList.value== "card card-actived"){
+        alert(`the punish is: ${paramInfo.getPunishments[randomNum]}`)
+         DeletePunishment(paramInfo, randomNum,`${paramInfo.getPunishments[randomNum]}`) }
     })
     
 } 
