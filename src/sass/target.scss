@@ -1,0 +1,19 @@
+#section-target {
+    width: 98%;
+    height: 40vw;
+    border-color: red;
+    border: 9px solid red;
+}
+#punishment-List {
+    border: 9px solid aqua;
+    width: 59%;
+    height: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+li {
+    border: 9px solid green;
+    width: 10%;
+    height: 6vw;
+}
