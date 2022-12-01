@@ -1,21 +1,16 @@
 #section-target {
   width: 100%;
-  padding-top: 2%;
-  display: flex;
-  justify-content: center;
-}
-#section-target #punishment-list {
-  width: 80%;
+  margin-top: 2%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
 }
-#section-target .punish {
+#section-target .card {
   background-color: #666666;
   margin: 2%;
   width: 20%;
-  height: 15vw;
+  height: 15vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -24,12 +19,12 @@
   font-size: 3vw;
   text-align: center;
 }
-#section-target .punish-actived {
+#section-target .card-actived {
   background-color: #50B748;
   color: black;
   margin: 2%;
   width: 20%;
-  height: 15vw;
+  height: 15vh;
   display: flex;
   justify-content: space-around;
   align-items: center;

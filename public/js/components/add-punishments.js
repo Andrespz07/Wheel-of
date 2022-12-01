@@ -6,6 +6,8 @@ export function CreateList(){
     let PunishmentList = new List();
     AddPunishments(PunishmentList);
     ActionPunishments(PunishmentList);
+
+
 }
 export function AddPunishments(paramInfo){
     let ButtonAdd = document.getElementById("btn-add");
@@ -18,7 +20,9 @@ export function AddPunishments(paramInfo){
         } else{
             alert("Is duplicate or is empty")
         }
-    })
+        
+    });
+    RandomFunction(paramInfo);
 }
 export function RenderPunishments(paramInfo){
     let Render = document.getElementById
@@ -33,10 +37,21 @@ export function RenderPunishments(paramInfo){
 
 export function renderDib(paramInfo){
     let Render = document.getElementById
-    ("test");
+    ("section-target");
     Render.innerHTML  += /* html */ `
-    <div id="div-${paramInfo}" class="target">${paramInfo}
+    <div id="div-${paramInfo}" class="card">${paramInfo}
     
     </div>
     `
 }
+export function RandomFunction(paramInfo){
+    console.log(paramInfo.getPunishments);
+    let buttonInit = document.getElementById("button-sufre");
+    
+
+    buttonInit.addEventListener("click", ()=>{
+        const randomNum=Math.floor(Math.random() * paramInfo.getPunishments.length);
+        console.log(randomNum);
+    })
+    
+} 
