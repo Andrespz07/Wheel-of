@@ -5,7 +5,7 @@
 <h3>Tema escogido:</h3>
 <p>Pagina web de castigos.</p>
 <h3>Objetivo del proyecto:</h3>
-<p>Crear un sistemna que al poner nombres nos de un resultado aleatorio. El usuario debe tener la opción de ver la lista de los participantes, de añadir un nuevo participante, de borrar un participante y por último la opción de modificar un participante ya añadido. Tiene que poder funcionar en cualquier dispositivo. <p/>
+<p>Crear un sistemna que al poner nombres nos de un resultado aleatorio. El usuario debe tener la opción de ver la lista de los participantes, de añadir un nuevo participante, de borrar un participante y por último la opción de modificar un participante ya añadido. Tiene que poder funcionar en cualquier dispositivo. </p>
 <h3>Requisitos pedidos:</h3>
 <ul>
 <li>Mobile first.</li>
