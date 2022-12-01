@@ -1,3 +1,51 @@
-
+#section-instructions {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-style: solid;
+  border-color: #666666;
+  border-width: 0.2vw;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+#section-instructions h2 {
+  display: flex;
+  background-color: #4c1929;
+  width: 100%;
+  color: #eeeeee;
+  font-size: 4.5vw;
+  padding-bottom: 1%;
+  justify-content: center;
+  font-family: dream;
+}
+#section-instructions ol {
+  text-align: center;
+  width: 100%;
+  font-family: dream;
+  font-size: 2vw;
+  padding-bottom: 5vw;
+  border-style: solid;
+  border-color: #4c1929;
+  border-width: 0.2vw;
+}
+#section-instructions ol li {
+  padding: 1%;
+}
+#section-instructions ul {
+  text-align: center;
+  font-family: dream;
+  width: 100%;
+  font-size: 2vw;
+  color: #666666;
+  margin-top: 5vw;
+}
+#section-instructions ul li {
+  padding: 1%;
+}
+#section-instructions ul b {
+  color: #4c1929;
+}
 
 /*# sourceMappingURL=instructions.css.map */
