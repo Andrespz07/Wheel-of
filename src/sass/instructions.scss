@@ -1,0 +1,50 @@
+    #section-instructions{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-style: solid;
+        border-color: #666666;
+        border-width: 0.2vw;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2%;
+        
+        
+        h2{
+            display: flex;
+            background-color: #4c1929;
+            width: 100%;
+            color:#eeeeee;
+            font-size: 4.5vw;
+            justify-content: center;
+            font-family: dream;
+        }
+        ol{
+            text-align: center;
+            width: 100%;
+            font-family: dream;
+            font-size: 2vw;
+            border-style: solid;
+            border-color: #4c1929;
+            border-width: 0.2vw;
+            li{
+                padding: 1%;
+            }
+        }
+        ul{
+            text-align: center;
+            font-family: dream;
+            width: 100%;
+            font-size: 2vw;
+            color: #666666;
+            
+            li{
+                padding: 1%
+                
+            }
+            b{
+                color:#4c1929;
+            }
+        }
+    }

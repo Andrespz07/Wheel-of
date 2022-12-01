@@ -1,19 +1,43 @@
 #section-target {
-    width: 98%;
-    height: 40vw;
-    border-color: red;
-    border: 9px solid red;
-}
-#punishment-List {
-    border: 9px solid aqua;
-    width: 59%;
-    height: 10vw;
+    width: 100%;
+    padding-top: 2%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-li {
-    border: 9px solid green;
-    width: 10%;
-    height: 6vw;
+    justify-content: center;
+
+    #punishment-list {
+        
+        width: 80%;
+        //height: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        
+    }
+    .punish {
+        background-color: #666666;
+        margin: 2%;
+        width: 20%;
+        height: 15vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #666666;
+        font-family: dream;
+        font-size: 3vw;
+        text-align: center;
+    }
+    .punish-actived{
+        background-color: #50B748;
+        color:black;
+        margin: 2%;
+        width: 20%;
+        height: 15vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: dream;
+        font-size: 3vw;
+        text-align: center;
+    }
 }

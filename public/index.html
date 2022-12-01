@@ -9,28 +9,34 @@
 </head>
 <body>
     <header>
-        <h1>Ruleta del castigo</h1>
+        <h1>Wheel don't</h1>
+        <h2>La ruleta que pudo ser y no fue</h2>
     </header>
     <main>
         <section id="section-button-start">
             <h3>¿A quién le toca sufrir?</h3>
             <form id="button-input" action="">
                 <input type="text" id="input-name" name="name-user" required>
-                <input type="submit" id="button-sufre" value="&#33SUFRE!">
+                <input type="submit" id="button-sufre" value="SUFRE">
               </form>              
             </section>
-        <section id="section-target">
-                <ul id="punishment-List">
-                    <li></li>
-                    <li id="targetAction"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-        </section>
+            
+        <section id="section-target"></section>
         <section id="section-result-actions"></section>
-        <section id="section-instructions"></section>
+
+        <section id="section-instructions">
+            <h2>Instrucciones</h2>
+            <ol>
+                <li>Rellena el campo "¿A quién le toca sufrir?"</li>
+                <li>Pulsa el botón "SUFRE".</li>
+                <li>Mira el castigo que te ha tocado.</li>
+            </ol>
+            <ul>
+                <li>Hasta que no rellenes el campo "¿A quién le toca sufrir?" <b>no podrás tirar</b>.</li>
+                <li>Puedes ver los resultados de las últimas tiradas en la sección <b>"Resultados"</b>.</li>
+                <li>Puedes añadir, borrar, editar y ocultar castigos en la sección <b>"Listado"</b>.</li>
+            </ul>
+        </section>
     </main>
     <script src="./js/app.js"></script>
 </body>
