@@ -1,11 +1,15 @@
 import { ActionPunishments } from "./action-punishment.js";
 import { isEmpty, isRepeat } from "./AuxiliarFunctions.js";
+
+import { RandomFunction } from "./random-function.js";
 import List from "./list.js";
 
 export function CreateList(){
     let PunishmentList = new List();
     AddPunishments(PunishmentList);
     ActionPunishments(PunishmentList);
+
+
 }
 export function AddPunishments(paramInfo){
     let ButtonAdd = document.getElementById("btn-add");
@@ -18,7 +22,9 @@ export function AddPunishments(paramInfo){
         } else{
             alert("Is duplicate or is empty")
         }
-    })
+        
+    });
+    RandomFunction(paramInfo);
 }
 export function RenderPunishments(paramInfo){
     let Render = document.getElementById
@@ -33,10 +39,11 @@ export function RenderPunishments(paramInfo){
 
 export function renderDib(paramInfo){
     let Render = document.getElementById
-    ("test");
+    ("section-target");
     Render.innerHTML  += /* html */ `
-    <div id="div-${paramInfo}" class="target">${paramInfo}
+    <div id="div-${paramInfo}" class="card">${paramInfo}
     
     </div>
     `
 }
+
