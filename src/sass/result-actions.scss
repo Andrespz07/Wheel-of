@@ -1,0 +1,37 @@
+#section-result-actions {
+    width: 95%;
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    #actions-sec {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .wrapper {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            border: 2px solid;
+            
+            .title-action-sec {
+                margin: 0.5% 0 0.5% 0;
+            }
+        }
+        .wrapper:hover {
+            cursor: pointer;
+            transform: scale(1.01);
+        }
+        #list-title {
+            background-color: #50B748;
+            
+        }
+        #result-title {
+            background-color: #4C1929;
+            color: #ffffff;
+        }
+
+    }
+}

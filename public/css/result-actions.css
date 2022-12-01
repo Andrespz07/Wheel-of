@@ -1,3 +1,36 @@
-
+#section-result-actions {
+  width: 95%;
+  border: solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section-result-actions #actions-sec {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#section-result-actions #actions-sec .wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid;
+}
+#section-result-actions #actions-sec .wrapper .title-action-sec {
+  margin: 0.5% 0 0.5% 0;
+}
+#section-result-actions #actions-sec .wrapper:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+#section-result-actions #actions-sec #list-title {
+  background-color: #50B748;
+}
+#section-result-actions #actions-sec #result-title {
+  background-color: #4C1929;
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=result-actions.css.map */
