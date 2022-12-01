@@ -51,6 +51,9 @@ export function RandomFunction(paramInfo){
 
     buttonInit.addEventListener("click", ()=>{
         const randomNum=Math.floor(Math.random() * paramInfo.getPunishments.length);
+        let activate = document.getElementById(`div-${paramInfo.getPunishments[randomNum]}`);
+        activate.classList.add("card-actived");
+        console.log(activate);
         console.log(randomNum);
     })
     
