@@ -1,0 +1,35 @@
+#btn-add {
+    border: 4px solid #4C1929;
+    background-color: #666666;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 4vw;
+    
+}
+        .edit-btn {
+        border: 4px solid #4C1929;
+        background-color: #666666;
+        padding: 3%;
+        margin: 2%;
+        border-radius: 4vw;
+        
+        }
+        .delete-btn {
+            border: 4px solid #4C1929;
+            background-color: #666666;
+            padding: 3%;
+            margin: 2%;
+            border-radius: 4vw;
+           
+            }
+            #punishment {
+                border: 2px solid #000;
+                border-radius: 5vw;
+                padding-left: 1%;
+            }
+            #add-div {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
