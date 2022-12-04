@@ -22,8 +22,9 @@ export function AddPunishments(paramInfo){
         } else{
             alert("Is duplicate or is empty")
         }
-        
+        document.getElementById ("punishment").value=''
     });
+    
     RandomFunction(paramInfo);
 }
 export function RenderPunishments(paramInfo){

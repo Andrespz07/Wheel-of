@@ -2,7 +2,7 @@
   width: 80%;
   margin-top: 2%;
   height: 60vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -18,8 +18,9 @@
   align-items: center;
   color: #666666;
   font-family: dream;
-  font-size: 1.5em;
+  font-size: 0.1em;
   text-align: center;
+  overflow: hidden;
 }
 #section-target .card-actived {
   background-color: #50B748;
