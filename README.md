@@ -21,3 +21,5 @@
 <h4>Link del sketch, mockup y prototype :</h4><p> https://www.figma.com/file/IUPWuax3JMbiKtJkkJJjH4/Wheel-don't?node-id=0%3A1&t=xep7YtU6A7z6Jb7e-1</p>
 <h4>Enlace de Git Pages:</h4><p>https://drdaza.github.io/Wheel-of/</p>
 <h4>Enlace de Jira:</h4><p>https://proyectosf5drdaza.atlassian.net/jira/software/projects/WO/boards/2</p>
+![Captura de pantalla 2022-12-04 105939](https://user-images.githubusercontent.com/116883533/205484755-dd1e5ed6-fbcf-457d-861d-d061b624ab3c.png)
+![Captura de pantalla 2022-12-04 110032](https://user-images.githubusercontent.com/116883533/205484758-1d20a16f-e506-4da5-97a1-7eab8f402ada.png)
