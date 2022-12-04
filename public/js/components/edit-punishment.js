@@ -9,7 +9,18 @@ export function EditPunishment (paramInfo, number, id){
     ${word}
     <button id="edit-btn-${word}" class="edit-btn">edit</button>
     <button id="delete-btn-${word}" class="delete-btn">delete</button>
-` } else{
+    ` 
+    EditPunishmentRender(word,id);
+
+} else{
     alert("Is duplicate or is empty")
 }
+}
+export function EditPunishmentRender (word,id){
+    let modify = document.getElementById(`div-${id}`);   
+    modify.id= `div-${word}`;
+    modify.innerHTML=  `
+    ${word}
+   
+` 
 }
